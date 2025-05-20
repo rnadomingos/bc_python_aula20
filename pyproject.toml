@@ -1,0 +1,17 @@
+[project]
+name = "bc-python-aula20"
+version = "0.1.0"
+description = "\"Bootcamp - Jornada de dados - Aula 20 - CRUD com Backend / Frontend / DB\""
+authors = [
+    {name = "Renan Domingos",email = "rna.domingos@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy (>=2.0.41,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
