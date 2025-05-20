@@ -1,4 +1,4 @@
-from pydantic import BaseModel, PositiveFloat, PositiveInt, EmailStr
+from pydantic import BaseModel, PositiveFloat, PositiveInt, EmailStr, validate_email
 from datetime import datetime
 from typing import Optional
 
