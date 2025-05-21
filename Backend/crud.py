@@ -16,7 +16,7 @@ def get_product(product_id: int, db: Session):
     '''
     return db.query(ProductModel).filter(ProductModel.id == product_id).first()
 
-def create_product(db: Session, product:ProductCreate):
+def create_product(product:ProductCreate, db: Session):
     '''
     Add a product in products table
     '''
