@@ -38,7 +38,7 @@ def add_product(product: ProductCreate, db: Session = Depends(get_db)):
      '''
      return create_product(product, db)
 
-@router.delete("/products/", response_model=ProductResponse)
+@router.delete("/products/{product_id}", response_model=ProductResponse)
 def delete_product_by_id(product_id: int, db: Session = Depends(get_db)):
      '''
      Delete a product by ID.
